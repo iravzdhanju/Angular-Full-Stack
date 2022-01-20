@@ -14,4 +14,18 @@ export class UserComponent {
     age: number = 20;
 
 
+
+
+    constructor() {
+        console.log('Hello User');
+        this.sayHello();
+        this.hasBirthday();
+    }
+
+    sayHello(): void {
+        console.log(`Hello ${this.firstName} ${this.lastName}`);
+    }
+    hasBirthday() {
+        this.age += 1;
+    }
 }
