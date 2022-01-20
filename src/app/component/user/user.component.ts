@@ -13,4 +13,5 @@ export class UserComponent {
     lastName: string = 'Doe';
     age: number = 20;
 
+
 }
